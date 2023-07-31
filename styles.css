@@ -1,0 +1,110 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    list-style-type: none;
+    align-items: center;
+    margin-bottom: 2rem;
+    background-color: rgb(247, 221, 187);
+    border-radius: 0.5rem;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    
+ }
+
+body{
+    border: 5px solid orange;
+    margin-top: 2rem;
+    box-shadow: 0 0 3px #ffa500, 0 0 4px #ffa500, 0 0 5px #ffa500;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(145, 94, 1);
+    text-decoration: underline;
+    font-size: 2rem;
+    font-weight: 1rem;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    border: 3px solid orange;
+
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    color: rgb(145, 94, 1);
+    font-size: 2rem;
+    font-weight: 1rem;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    border: 3px solid orange;
+
+}
+
+header :hover{
+    font-size: 3rem;
+}
+
+article div{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+
+li:hover{
+    font-size: 2rem;
+    color: darkorange;
+}
+
+.foto {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    border: 3px solid orange;
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+    border: 3px solid orange;
+
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    color: rgb(145, 94, 1);
+    font-size: 1rem;
+    font-weight: 1rem;
+    margin-top: 2rem;
+    text-transform: uppercase;
+}
+
+
+.vidMusi {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+
+}
