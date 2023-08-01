@@ -4,26 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resumen del Alumno</title>
-    <link rel="stylesheet" href="/sobre-mi/styles.css">
+    <!-- Adjuntando css en html para agregar estilos -->
+    <link rel="stylesheet" href="/styles.css">
 </head>
 
 <body>
+    <!-- comienza el cuerpo de la pagina con la parte de arriba, donde la utilizo como título -->
     <header>
         <h1>Información del alumno</h1>
     </header>
 
+    <!-- Sección de navegación, donde pongo un enlace externo y enlaces para navegar por dentro de la página -->
     <nav>
-        <a href="#seccion2">Template</a>
+        <a href="/Actividad3/index.html">Template (actividad opcional)</a>
         <a href="#seccion2">Intereses</a>
         <a href="#seccion3">Experiencias</a>
         <a href="#seccion4">Música</a>
     </nav>
 
+    <!-- Aquí comienza el contenído en si.  -->
     <main>
+    <!-- Primer articulo donde se agrega un titulo, una imagen y una lista con información -->
         <article>
             <h2 id="seccion1">Datos Basicos</h2>
             <div>
-                <img class="foto" src= "/sobre-mi/Imgs/DSCN2193.JPG" alt="Imagen autobiografica">
+                <img class="foto" src= "/Imgs/DSCN2193.JPG" alt="Imagen autobiografica">
                 <ul>
                     <li>Nombre: Nicolás Maidana</li>
                     <li>Edad: 32</li>
@@ -31,7 +36,7 @@
                 </ul>
             </div>
         </article>
-
+    <!-- Segundo articulo donde se agrega un título y una lista de intereses -->
         <article>
             <h2 id="seccion2">Intereses</h2>
             <ul>
@@ -40,27 +45,25 @@
                 <li>Deportes. </li>
             </ul>
         </article>
-
+    <!-- Tercer articulo donde se agrega un título y una experiencia  -->
         <article>
             <h2 id="seccion3">Experiencias</h2>
             <ul>
                 <li> Por el momento pequeños proyectos personales.  </li>
             </ul>
         </article>
-
+    <!-- Cuarto articulo donde se agrega un título y un video a la pagina, se agrega una DIV para luego
+    centrar el video de forma responsiva con Flex Box -->
         <article>
             <h2 id="seccion4">Música</h2>
             <div>
-                <video class="vidMusi" src="/sobre-mi/Vids/antes.mp4" controls></video>
+                <video class="vidMusi" src="/Vids/antes.mp4" controls></video>
             </div>
         </article>
 
     </main>
 
-    <aside>
-
-    </aside>
-
+    <!-- pié de pagina con un título -->
     <footer>
     <h3>Creado por Nicolás Maidana</h3>
         
