@@ -1,0 +1,123 @@
+
+*{
+    background: #D8DFE8;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 150%;
+    border-radius: 40px;
+}
+
+body{
+    display: block;
+    margin-top: 3rem;
+    
+}
+main{
+    display: flex;
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    border: 3px solid #000000;
+    justify-content: space-around;
+    background-color: #5e4094;
+}
+
+section{
+    border: 3px solid #471717;
+    margin: 1rem;
+    
+}
+
+.parteUno{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    height: 46%;
+    width: 50%;
+}
+input{
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.parteDos{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    align-items: center;
+    height: 46%;
+    width: 50%;
+}
+
+.medio{
+    margin: 1rem;
+    margin-top: 4rem;
+}
+.textarea2{
+    resize: none;
+    overflow: auto;
+    text-align: center;
+    text-decoration: solid;
+    color: rgb(15, 13, 31);
+    background-image: url(calculadora.jpg);
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    background-size: cover;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.textarea2::placeholder{
+    text-align: center;
+    color: rgb(9, 7, 20);
+}
+
+p{
+    margin: 1rem;
+}
+
+
+button{
+    margin: 1rem;
+}
+
+select{
+    margin: 2rem;
+    width: 40%;
+    height: 2rem;
+    text-align: center;
+}
+
+select:hover{
+    width: 80%;
+    height: 4rem;
+}
+
+.pie{
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alert{
+    margin-top: 3.5rem;
+}
+
+.btn1:hover{
+    background-color: #5e4094;
+    font-size: 1.5rem;
+}
+
+.btn2:hover{
+    background-color: #5e4094;
+    font-size: 1.5rem;
+}

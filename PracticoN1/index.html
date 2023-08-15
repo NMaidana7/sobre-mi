@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="fun.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <h1> No soy una calculadora, soy un monstruo...</h1>
+        </div>
+    </header>
+
+
+    <main>
+        <section class="parteUno">
+            <div>
+                <p>Ingrese su primer número a operar</p>
+                <input type="number" id="numUNO" required> 
+            </div>    
+
+            <div>
+                <p>Ingrese su segundo número a operar</p>
+                <input type="number" id="numDos" required>
+            </div>
+
+            <div class="medio">
+                <label>Seleccione operación a realizar</label>
+            </div>
+
+            <div>
+              <select id="opciones">
+                    <option value="+"> + </option>
+                    <option value="-"> - </option>
+                    <option value="*"> * </option>
+                    <option value="/"> / </option>
+               </select>
+            </div>
+
+            <div>
+                <p class="alert">Solo se permite utilizar números</p>
+            </div>
+        </section>
+
+        <section class="parteDos">
+            <p>Resultados</p>
+            <div>
+                <textarea  class="textarea2" id="resultado" cols="20" rows="10" placeholder="No se encontraron operaciones" readonly></textarea>
+            </div>
+            <div>
+                <button type="button" class="btn1" onclick="calcular()"> Calcular</button>
+                <button type="button" class="btn2" onclick="limpiar()" > Borrar </button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+    <h1 class="pie">Creado por "Nicolás Agustín Maidana"</h1>
+    </footer>
+
+
+
+</body>
+</html>
