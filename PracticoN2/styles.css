@@ -93,7 +93,7 @@ header{
 
 
 #piedra{
-  background-image: url(/Piedra.jpg);
+  background-image: url(Piedra.jpg);
   width: 150px;
   height: 150px;
   background-repeat: no-repeat;
@@ -111,7 +111,7 @@ header{
 }
 
 #papel{
-  background-image: url(/Papel.jpg);  
+  background-image: url(Papel.jpg);  
   width: 150px;
   height: 150px;
   background-repeat: no-repeat;
@@ -129,7 +129,7 @@ header{
 }
 
 #tijeras{
-  background-image: url(/Tijera.jpg);
+  background-image: url(Tijera.jpg);
   width: 150px;
   height: 150px;
   background-repeat: no-repeat;
