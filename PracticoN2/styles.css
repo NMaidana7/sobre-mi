@@ -1,0 +1,198 @@
+
+*{
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  background-color: #000000;
+}
+
+
+main{
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  width: 80%;
+  margin: auto;
+  border: 3px solid #000000;
+  justify-content: space-around;
+  background-color: oldlace;
+}
+  
+header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: blanchedalmond;
+  margin-top: 2rem;
+  height: 5rem;
+  width: 80%;
+}
+
+.soyun{
+  height: 5rem;
+}
+
+.primera{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+
+#iniciar{
+  padding: 0.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  transition: transform 1s;
+}
+
+#iniciar:hover{
+  transform: scale(1.20);
+}
+
+#numUNO{
+  margin: 0.5rem; 
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  transition: transform 1s;
+}
+
+#numUNO:hover{
+  transform: scale(1.25);
+  box-shadow: 0px 10px 20px 5px rgba(0,0,0,0.4);
+}
+
+
+.segunda{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+
+
+.btns{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+#piedra{
+  background-image: url(/Piedra.jpg);
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 0.5rem;
+  border-radius: 1rem;
+  transition: transform 1s;
+}
+
+#piedra:hover{
+  transform: scale(1.20);
+  box-shadow: 0px 10px 20px 5px rgba(0,0,0,0.4);
+}
+
+#papel{
+  background-image: url(/Papel.jpg);  
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 0.5rem;
+  border-radius: 1rem;
+  transition: transform 1s;
+}
+
+#papel:hover{
+  transform: scale(1.20);
+  box-shadow: 0px 10px 20px 5px rgba(0,0,0,0.4);
+}
+
+#tijeras{
+  background-image: url(/Tijera.jpg);
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 0.5rem;
+  border-radius: 1rem;
+  transition: transform 1s;
+}
+
+#tijeras:hover{
+  transform: scale(1.20);
+  box-shadow: 0px 10px 20px 5px rgba(0,0,0,0.4);
+}
+
+.tercera{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 1rem;
+  margin: 0.5rem;
+}
+.cuarta{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 1rem;
+  margin: 0.5rem;
+}
+.quinta{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 1rem;
+  margin: 0.5rem;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: bisque;
+  width: 80%;
+}
+
+#reiniciar{
+  padding: 0.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  transition: transform 1s;
+}
+
+#reiniciar:hover{
+  transform: scale(1.20);
+}
+
+.imginte{
+  align-items: center;  
+}

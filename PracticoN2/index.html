@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel, Tijera.</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <header>
+            <h1> Soy un juego (Piedra, Papel o Tijera) </h1>
+            <img class="soyun" src="/soyunjuego.jpg">
+    </header>
+
+    <main>
+
+        <div class="primera">
+            <p>Ingrese su Nombre</p>
+            <input id="numUNO" required> 
+            <button id="iniciar">Iniciar juego</button>
+        </div>
+
+        <div class="segunda">
+                <p>Seleccione su Jugada</p>
+            
+            <div class="btns">
+                <button  class="botones" id="piedra">     </button>
+                <button  class="botones" id="papel">     </button>
+                <button  class="botones" id="tijeras">     </button>
+            </div>
+        </div>
+
+        <div class="tercera">
+            <p>Marcador</p>
+            <p id="marcador"></p>
+        </div>
+
+
+        <div class="cuarta">
+            <p>Jugadas</p>
+            <p>Jugada del usuario: <span id="jugada-usuario"></span></p>
+            <p>Jugada de la computadora: <span id="jugada-computadora"></span></p>
+        </div>
+
+
+        <div class="quinta">
+            <p>Resultado</p>
+            <p id="resultado"></p>
+            <button id="reiniciar" disabled>Reiniciar juego</button>
+        </div>
+        <script src="fun.js"></script>
+
+    </main>
+
+    <footer>
+        <div>
+            <h1>Creado Por Nicolás Agustín Maidana. <br><br> Lo intenté, ho señor, como lo intenté...</h1>
+        </div>
+
+        <img class="imginte" src="lo intente.jpg">
+    </footer>
+
+</body>
+
+
+
+</html>

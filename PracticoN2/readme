@@ -1,0 +1,105 @@
+
+# Piedra Papel o Tijeras
+
+Trabajo Práctico Nro. 2 de Programación web Front-end dictado por la FAMAF (UNC) - Argentina Programa 4.0.
+
+Por falta de tiempo el proyecto no está terminado, falta agregar y modificar algunas funciones y tambien
+queda inconclusa la parte visual de la página web. a modo de disculpas se agrega un buen meme.
+
+## ¿Cómo Jugar?
+
+1 - Se debe ingresar de forma obligada un nombre para el jugador
+2 - Se debe seleccionar una jugada de las 3 disponibles, la misma compite
+    con una jugada al azar de la computadora y compara las mismas teniendo en
+    cuenta que la piedra le gana al papel, el papel le gana a la piedra y 
+    la piedra le gana a la tijera
+3 - son 5 jugadas por partido, y ganan 3 jugadas de las 5 se gana el juego
+4  - se agrega la posibilidad de empatar el partido, claro, no siempre tiene que 
+    existir un perdedor. 
+5 - se puede reiniciar el partido, sin necesidad de cambiar el nomre del jugador
+
+
+## Consignas:
+
+Práctico N2: Piedra, Papel o Tijera
+
+Páginas web con componentes dinámicos
+
+Objetivo:
+Crear un juego web simple utilizando HTML5, CSS3 y JavaScript que permita a los usuarios
+realizar una partida contra el PC.
+
+PARTE 1: Estructura básica HTML y estilos CSS
+1. Crea un archivo "index.html" con la estructura básica de un documento HTML5.
+2. Agrega los elementos necesarios para obtener el nombre del jugador y para mostrar
+las opciones de "piedra", "papel" y "tijera".
+3. Aplica estilos CSS para dar formato a la interfaz de usuario del juego.
+
+PARTE 2: Obtención del nombre del jugador
+1. Validar que el campo texto en el que el jugador ingresa su nombre no esté vacío.
+2. Utiliza JavaScript para capturar el nombre ingresado por el jugador.
+
+PARTE 3: Selección de la opción del jugador y del oponente (PC)
+1. Crea tres imágenes (piedra, papel y tijera) que el jugador pueda hacer clic para
+seleccionar su opción.
+2. Utiliza JavaScript para capturar la opción seleccionada por el jugador y genera
+aleatoriamente la opción del oponente (PC).
+
+PARTE 4: Determinación del ganador y actualización del marcador
+1. Define las reglas del juego para determinar quién gana entre "piedra", "papel" y
+"tijera".
+2. Utiliza JavaScript para comparar las opciones del jugador y del oponente y
+determinar el ganador de la ronda.
+3. Actualiza el marcador de cada jugador (jugador y PC) en función de los resultados
+de las rondas.
+
+PARTE 5: Control del juego
+1. Establece que el juego se juega al mejor de 5 intentos.
+2. Utiliza JavaScript para contar los intentos y verificar si alguno de los jugadores ha
+alcanzado 3 victorias.
+
+PARTE 6: Anunciar al ganador y reiniciar el juego
+1. Cuando uno de los jugadores alcance 3 victorias, muestra un mensaje anunciando al
+ganador.
+2. Proporciona un botón para reiniciar el juego y restablecer los marcadores.
+
+PARTE 7: Mejoras y personalización
+1. Agrega más estilos CSS para mejorar el aspecto del juego y hacerlo atractivo
+visualmente.
+2. Proporciona retroalimentación visual cuando se selecciona una opción (cambio de
+color o resaltado).
+3. Agrega transiciones suaves para las animaciones de los elementos en la página.
+
+PARTE 8: Comentarios explicativos y optimización del código
+
+1. Agrega comentarios en el código JavaScript para explicar el propósito de cada
+función y sección del código.
+2. Revisa el código para identificar posibles áreas de mejora y optimización.
+
+PARTE 9: Prueba y depuración
+1. Prueba el juego con diferentes combinaciones de opciones para asegurarte de que
+funcione correctamente.
+2. Realiza cualquier corrección o ajuste necesario para solucionar posibles errores o
+comportamientos inesperados.
+
+PARTE 10: Documentación y entrega
+
+1. Agrega en el Readme.md una explicación para un usuario típico del juego y detalla
+lo implementado.
+2. Al finalizar todos los ejercicios deberás crear un tag con el nombre de práctico2
+para realizar la entrega del mismo. Fecha de entrega: 29/8 a las 21:30hs
+
+PARTE Estrella: Opcional
+Si te quedaste manija y con tiempo extra con todo el TP2 terminado podes hacer el
+siguiente punto.
+1. Con la base de CarGame crea un juego donde el <canvas> sea una pista de carrera
+por donde deba ir nuestro autito y completar 3 vueltas.
+2. Si completa las 3 vueltas sin irse de la pista y sin chocar avanza de nivel.
+3. El juego debe tener al menos 3 niveles. En cada nivel, la pista debe volverse más
+compleja, con más obstáculos y curvas, y la velocidad del autito debe aumentar a
+medida que avanzó de nivel.
+4. Tengo 3 vidas para completar todos los niveles para ganar el juego.
+Recuerda que este práctico te permitirá aplicar tus conocimientos de HTML, CSS y
+JavaScript para crear un juego interactivo. ¡Diviértete creando el juego "piedra, papel o
+tijera" y sigue mejorando tus habilidades en programación web frontend! Si tienes alguna
+pregunta o necesitas más aclaraciones, no dudes en preguntar. ¡Buena suerte!
